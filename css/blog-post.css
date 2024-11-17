@@ -1,0 +1,26 @@
+h1 {
+    background-color: rgba(242, 148, 19, 1);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.blog-post-image {
+    width: 80%;
+    display: block;
+    margin: auto;
+    height: 500px;
+    object-fit: cover;
+}
+
+.blog-post-article {
+    width: 40%;
+    margin: auto;
+    line-height: 25px;
+}
+
+.publish-date {
+    text-align: center;
+    margin: 100px 0;
+}
