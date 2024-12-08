@@ -3,37 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/general.css" rel="stylesheet" />
+    <link href="../css/edit.css" rel="stylesheet" />
     <title>Edit post | HotView Labs</title>
   </head>
   <body>
     <header>
-      <div>
+      <div class="logo-container">
         <img
           src="../assets/HotView Labs logo.jpg"
           alt="HotView Labs company logo"
+          class="logo"
         />
-        <p>HotView Labs</p>
+        <p class="company-name">HotView Labs</p>
       </div>
       <nav>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="./account/login.html">Sign up</a></li>
-          <li><a href="./account/register.html">Register</a></li>
-        </ul>
+        <a href="../index.html">Home</a>
+        <a href="./login.html">Login</a>
+        <a href="./register.html">Register</a>
       </nav>
     </header>
     <main>
       <h1>Edit post</h1>
-      <div>
-        <form>
-          <label for="post-title">Post title</label>
-          <input type="text" id="post-title" />
-          <label for="post-content">Post content</label>
-          <input type="text" id="post-content" />
-          <label for="image-url">Image URL</label>
-          <input type="text" id="image-url" />
+      <div class="login-container">
+        <form class="form-container">
+          <label for="post-title" class="label-name">Post title</label>
+          <input
+            type="text"
+            id="post-title"
+            class="form-input post-title-input"
+          />
+          <label for="post-content" class="label-name">Post content</label>
+          <input type="text" id="post-content" class="form-input" />
+          <label for="image-url" class="label-name">Image URL</label>
+          <input type="text" id="image-url" class="form-input" />
         </form>
-        <button>Save changes</button>
+        <button class="login-button">Save changes</button>
       </div>
     </main>
     <footer>
